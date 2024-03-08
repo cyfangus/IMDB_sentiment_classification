@@ -25,6 +25,12 @@ By running this model
 ![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/cb21d6fa-3cb4-4c3f-b9cc-e56cceea658d)
 ![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/a03f0a89-6919-4e55-a9e5-58d3cdc53996)
 
+| Evaluation matrices (threshold = 0.4407)  | scores |
+| --- | --- |
+| Accuracy | 0.8352 |
+| Precision | 0.8220 |
+| Recall | 0.8558 |
+| F1 Score | 0.8385 |
 
 ### Support Vector Machine (SVM)
 
