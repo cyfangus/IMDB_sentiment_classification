@@ -8,7 +8,7 @@ This repo contains the python files to run classification on a commonly used IMD
 
 This project contains two machine learning models, training from a dataset containing 25k pos/neg movie reviews and testing on another 25k pos/neg reviews. Since the dataset is too big to be stored in this repository, please download from https://ai.stanford.edu/~amaas/data/sentiment/ to run the following model. Make sure to save the files in the same directory where the codes are stored. Otherwise, change the directory in the code so that it reads from the correct path.
 
-### Naive Bayes model
+### Multinomial Naive Bayes model
 
 - [IMDB_classification_NB](IMDB_classification_NB.py)
 
@@ -22,7 +22,11 @@ By running this model
 3. After that, it trains the Naive Bayes model and gets predicted probabilities. The model performance is then evaluated by ROC curve.
 4. Lastly, it finds the cut point with the maximum difference between the TPR and FPR as the optimal threshold. Corresponding matrices of the model are then reported and the confusion matrix is plotted to visualize its performance at this threshold.
 
-### Enhanced model
+![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/cb21d6fa-3cb4-4c3f-b9cc-e56cceea658d)
+![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/a03f0a89-6919-4e55-a9e5-58d3cdc53996)
+
+
+### Support Vector Machine (SVM)
 
 ```
 python enhancedmodel.py
