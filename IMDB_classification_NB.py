@@ -88,7 +88,7 @@ X_test, y_test = test_df['Text'], test_df['Label']
 
 # Step 5: Create a pipeline for Naive Bayes model
 naive_bayes_pipeline = Pipeline([
-    ('vectorizer', TfidfVectorizer()),  # You can experiment with CountVectorizer or other options
+    ('vectorizer', TfidfVectorizer()),
     ('classifier', MultinomialNB())
 ])
 
