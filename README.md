@@ -6,7 +6,7 @@ This repo contains the python files to run classification on a commonly used IMD
 
 ## Contents
 
-This project contains two machine learning models, training from a dataset containing 25k pos/neg movie reviews and testing on another 25k pos/neg reviews. Since the dataset is too big to be stored, please download from https://ai.stanford.edu/~amaas/data/sentiment/ to run the following model. Make sure to save the files in the same directory where the codes store, otherwise change the directory in the code so that it reads from the correct path.
+This project contains two machine learning models, training from a dataset containing 25k pos/neg movie reviews and testing on another 25k pos/neg reviews. Since the dataset is too big to be stored in this repository, please download from https://ai.stanford.edu/~amaas/data/sentiment/ to run the following model. Make sure to save the files in the same directory where the codes are stored. Otherwise, change the directory in the code so that it reads from the correct path.
 
 ### Naive Bayes model
 - [IMDB_classification_NB.py](IMDB_classification_NB.py)
@@ -16,10 +16,10 @@ python IMDB_classification_NB.py
 ```
 
 By running this model
-1. It starts with reading the datasets from 4 folders containing "train dataset labelled positive", "train dataset labelled negative", "test dataset labelled positive", and "test dataset labelled negative".
-2. Then the text data are preprocessed by converting into lowercase, removing puntuation, removing English stopwords with NLTK's stopwords, and performing lemmatization.
-3. After that, it trains the Naive Bayes model and get predicted probabilities. The model performace is then evaluated by ROC curve.
-4. Lastly, it finds the cut point with the maximum difference between the TPR and FPR as the opimal threshold. Corresponding metrices of the model is then reported and the confusion matrix is ploted to visualise its performance at this thershold.
+1. It starts with reading the datasets from 4 folders containing "train dataset labeled positive", "train dataset labeled negative", "test dataset labeled positive", and "test dataset labeled negative".
+2. Then the text data are preprocessed by converting into lowercase, removing punctuation, removing English stopwords with NLTK's stopwords, and performing lemmatization.
+3. After that, it trains the Naive Bayes model and gets predicted probabilities. The model performance is then evaluated by ROC curve.
+4. Lastly, it finds the cut point with the maximum difference between the TPR and FPR as the optimal threshold. Corresponding matrices of the model are then reported and the confusion matrix is plotted to visualize its performance at this threshold.
 
 ### Enhanced model
 
