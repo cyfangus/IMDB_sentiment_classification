@@ -8,7 +8,7 @@ This repo contains the python files to run classification on a commonly used IMD
 
 This project contains two machine learning models, training from a dataset containing 25k pos/neg movie reviews and testing on another 25k pos/neg reviews. Since the dataset is too big to be stored in this repository, please download from https://ai.stanford.edu/~amaas/data/sentiment/ to run the following model. Make sure to save the files in the same directory where the codes are stored. Otherwise, change the directory in the code so that it reads from the correct path.
 
-### Naive Bayes model(IMDB_classification_NB.py)
+### [Naive Bayes model](IMDB_classification_NB.py)
 
 ```
 python IMDB_classification_NB.py
