@@ -8,6 +8,9 @@ This repo contains the Python files to run classification on a commonly used IMD
 
 This project contains two machine learning models, training from a dataset containing 25k pos/neg movie reviews and testing on another 25k pos/neg reviews. Since the dataset is too big to be stored in this repository, please download from https://ai.stanford.edu/~amaas/data/sentiment/ to run the following model. Make sure to save the files in the same directory where the codes are stored. Otherwise, change the directory in the code so that it reads from the correct path.
 
+Dataset from: <br />
+Andrew L. Maas, Raymond E. Daly, Peter T. Pham, Dan Huang, Andrew Y. Ng, and Christopher Potts. (2011). Learning Word Vectors for Sentiment Analysis. The 49th Annual Meeting of the Association for Computational Linguistics (ACL 2011). 
+
 ### Multinomial Naive Bayes model
 
 - [IMDB_classification_NB](IMDB_classification_NB.py)
@@ -85,7 +88,7 @@ With the threshold = 0.4904, the performance matrices:
 ```
 python IMDB_classification_models_comparison.py
 ```
-Finally, to compare the performance of these models. A plot with all three models' ROC curves are plotted. It shows that the AUC of the linear SVC is the largest, indicating its capability of distinguishing between the positive and negative reviews. 
+Finally, to compare the performance of these models. A plot with all three models' ROC curves are plotted. It shows that the AUC of the linear SVC is the largest, indicating its capability of distinguishing between positive and negative reviews. 
 ![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/c7d604ca-fbee-4f2a-be03-db0c0e90afff)
 
 
