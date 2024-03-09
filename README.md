@@ -76,7 +76,7 @@ With the threshold = 0.4904, the performance matrices:
 | Recall | 0.8713 |
 | F1 Score | 0.8606 |
 
-![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/6065a7fc-e535-4e24-80a1-1ad4a3dec700=250x250)
+![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/6065a7fc-e535-4e24-80a1-1ad4a3dec700)
 ![image](https://github.com/cyfangus/IMDB_sentiment_classification/assets/123187295/b27a0109-8de7-4cb7-b8d3-8583c589ff88)
 
 
