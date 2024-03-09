@@ -33,6 +33,7 @@ By running this model
 | F1 Score | 0.8385 |
 
 ### Support Vector Machines (SVM)
+- [IMDB_classification_SVM](IMDB_classification_SVM.py)
 
 ```
 python IMDB_classification_SVM.py
