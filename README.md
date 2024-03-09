@@ -32,17 +32,18 @@ By running this model
 | Recall | 0.8558 |
 | F1 Score | 0.8385 |
 
-### Support Vector Machine (SVM)
+### Support Vector Machines (SVM)
 
 ```
 python enhancedmodel.py
 ```
 
-When running this model, an animation should pop up and start running automatically (there is no GUI). 
+Since the dataset is large, it might require more complex algorithms like SVM.
 
-You should expect to see 20 Sheep (white circles) and 10 Preds (black triangles). The Sheep should move randomly like the agents in the first model, 'eating' the environment as they move and adding to their store, but instead of being sick they stop when they're full (store 200). The Preds make a distance calculation between themselves and each Sheep, moving towards the closest one until they land on the same spot. They will then eat the Sheep, taking the contents of its store into their own, and the Sheep dies. Both classes are plotted based on store size, so as the Sheep eat and the Preds hunt, the points should increase in size. 
+By running this model,
+1. It reads and preprocesses the data as IMDB_classification_NB.py does.
+2. 
 
-To simulate a more realistic representation of reality, the agents in this model no longer wrap round the perimeter, but bounce off the edges. This is a closer representation to what would happen in an actual field with a physical perimeter. 
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
