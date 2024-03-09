@@ -35,7 +35,7 @@ By running this model
 ### Support Vector Machines (SVM)
 
 ```
-python enhancedmodel.py
+python IMDB_classification_SVM.py
 ```
 
 Since the dataset is large, it might require more complex algorithms like SVM.
